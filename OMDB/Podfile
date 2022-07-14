@@ -7,10 +7,12 @@ target 'OMDB' do
 
   # Pods for OMDB
 
-  pod 'RxSwift', '6.2.0'
-  pod 'RxCocoa', '6.2.0'
-  pod 'Kingfisher', '~> 7.0'
-  pod 'Alamofire', '~> 5.4'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'ReachabilitySwift'
+  pod 'SwiftMessages'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SVProgressHUD'
 
   target 'OMDBTests' do
     inherit! :search_paths

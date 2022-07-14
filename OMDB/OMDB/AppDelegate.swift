@@ -20,9 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func config() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let movie = MovieListViewController(nibName: MovieListViewController.nibName, bundle: nil)
-        self.window?.rootViewController = UINavigationController(rootViewController: movie)
-        self.window?.overrideUserInterfaceStyle = .dark
+        let movieVC = MovieListViewController(nibName: "MovieListViewController", bundle: nil)
+        self.window?.rootViewController = UINavigationController(rootViewController: movieVC)
+        self.window?.overrideUserInterfaceStyle = .light
         self.window?.makeKeyAndVisible()
     }
 
