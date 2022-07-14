@@ -17,6 +17,16 @@
 		E40CACE0287FC1FD00CE360B /* OMDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CACDF287FC1FD00CE360B /* OMDBUITestsLaunchTests.swift */; };
 		E40CACF9287FC43600CE360B /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CACF7287FC43600CE360B /* MovieListViewController.swift */; };
 		E40CACFA287FC43600CE360B /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E40CACF8287FC43600CE360B /* MovieListViewController.xib */; };
+		E40CAD02287FC85400CE360B /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CAD01287FC85400CE360B /* BaseService.swift */; };
+		E41236D7287FD3100027395A /* RxReachability+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41236D6287FD3100027395A /* RxReachability+Rx.swift */; };
+		E41236DB287FD3C50027395A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41236DA287FD3C50027395A /* Reachability.swift */; };
+		E41236E0287FD4D00027395A /* BaseServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41236DF287FD4D00027395A /* BaseServiceProtocol.swift */; };
+		E41236E3287FD5450027395A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41236E2287FD5450027395A /* Movie.swift */; };
+		E41236E7287FDAEB0027395A /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41236E6287FDAEB0027395A /* MovieListViewModel.swift */; };
+		E41236EB287FE35C0027395A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41236E9287FE35C0027395A /* MovieCell.swift */; };
+		E41236EC287FE35C0027395A /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E41236EA287FE35C0027395A /* MovieCell.xib */; };
+		E41236EE28800B7B0027395A /* SearchMovieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41236ED28800B7B0027395A /* SearchMovieResult.swift */; };
+		E41236FA28800ED70027395A /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41236F928800ED70027395A /* Int.swift */; };
 		FB2EBD6129AC13B5E1413FA3 /* Pods_OMDB_OMDBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26386F7E30B66FD6C1A06AEF /* Pods_OMDB_OMDBUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +69,16 @@
 		E40CACDF287FC1FD00CE360B /* OMDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E40CACF7287FC43600CE360B /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		E40CACF8287FC43600CE360B /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
+		E40CAD01287FC85400CE360B /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		E41236D6287FD3100027395A /* RxReachability+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxReachability+Rx.swift"; sourceTree = "<group>"; };
+		E41236DA287FD3C50027395A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E41236DF287FD4D00027395A /* BaseServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServiceProtocol.swift; sourceTree = "<group>"; };
+		E41236E2287FD5450027395A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E41236E6287FDAEB0027395A /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		E41236E9287FE35C0027395A /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		E41236EA287FE35C0027395A /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		E41236ED28800B7B0027395A /* SearchMovieResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMovieResult.swift; sourceTree = "<group>"; };
+		E41236F928800ED70027395A /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				E40CACBC287FC1FD00CE360B /* AppDelegate.swift */,
+				E40CAD00287FC84700CE360B /* Services */,
+				E41236DE287FD47A0027395A /* Protocols */,
+				E40CACFB287FC66A00CE360B /* Extensions */,
+				E41236E1287FD52C0027395A /* Models */,
 				E40CACEC287FC28800CE360B /* Screens */,
 				E40CACC5287FC1FD00CE360B /* Assets.xcassets */,
 				E40CACC7287FC1FD00CE360B /* LaunchScreen.storyboard */,
@@ -171,6 +195,7 @@
 		E40CACEE287FC2A500CE360B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E41236E6287FDAEB0027395A /* MovieListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -178,6 +203,7 @@
 		E40CACEF287FC2AA00CE360B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E41236E8287FE35B0027395A /* Cells */,
 				E40CACF7287FC43600CE360B /* MovieListViewController.swift */,
 				E40CACF8287FC43600CE360B /* MovieListViewController.xib */,
 			);
@@ -199,6 +225,50 @@
 			path = Movie;
 			sourceTree = "<group>";
 		};
+		E40CACFB287FC66A00CE360B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E41236D6287FD3100027395A /* RxReachability+Rx.swift */,
+				E41236DA287FD3C50027395A /* Reachability.swift */,
+				E41236F928800ED70027395A /* Int.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E40CAD00287FC84700CE360B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E40CAD01287FC85400CE360B /* BaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E41236DE287FD47A0027395A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E41236DF287FD4D00027395A /* BaseServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E41236E1287FD52C0027395A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E41236E2287FD5450027395A /* Movie.swift */,
+				E41236ED28800B7B0027395A /* SearchMovieResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E41236E8287FE35B0027395A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E41236E9287FE35C0027395A /* MovieCell.swift */,
+				E41236EA287FE35C0027395A /* MovieCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		E6BC6F0ED8DCD3BC1B19D010 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +279,6 @@
 				AC81C6198E581791D2131AA8 /* Pods-OMDBTests.debug.xcconfig */,
 				6FE804D0E2B5F443C0D45905 /* Pods-OMDBTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,6 +312,7 @@
 				E40CACCB287FC1FD00CE360B /* Sources */,
 				E40CACCC287FC1FD00CE360B /* Frameworks */,
 				E40CACCD287FC1FD00CE360B /* Resources */,
+				1CB2E9D002B5E4CBEA5609EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,6 +394,7 @@
 			files = (
 				E40CACFA287FC43600CE360B /* MovieListViewController.xib in Resources */,
 				E40CACC9287FC1FD00CE360B /* LaunchScreen.storyboard in Resources */,
+				E41236EC287FE35C0027395A /* MovieCell.xib in Resources */,
 				E40CACC6287FC1FD00CE360B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +431,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OMDB-OMDBUITests/Pods-OMDB-OMDBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB2E9D002B5E4CBEA5609EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMDBTests/Pods-OMDBTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OMDBTests/Pods-OMDBTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OMDBTests/Pods-OMDBTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		34F0B8ECF4B5B6F4FE8E8805 /* [CP] Check Pods Manifest.lock */ = {
@@ -452,8 +540,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41236E3287FD5450027395A /* Movie.swift in Sources */,
+				E41236E0287FD4D00027395A /* BaseServiceProtocol.swift in Sources */,
 				E40CACBD287FC1FD00CE360B /* AppDelegate.swift in Sources */,
+				E41236E7287FDAEB0027395A /* MovieListViewModel.swift in Sources */,
+				E41236EB287FE35C0027395A /* MovieCell.swift in Sources */,
 				E40CACF9287FC43600CE360B /* MovieListViewController.swift in Sources */,
+				E41236D7287FD3100027395A /* RxReachability+Rx.swift in Sources */,
+				E41236FA28800ED70027395A /* Int.swift in Sources */,
+				E41236DB287FD3C50027395A /* Reachability.swift in Sources */,
+				E40CAD02287FC85400CE360B /* BaseService.swift in Sources */,
+				E41236EE28800B7B0027395A /* SearchMovieResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +724,7 @@
 				INFOPLIST_FILE = OMDB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Movie;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -655,7 +752,7 @@
 				INFOPLIST_FILE = OMDB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Movie;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
